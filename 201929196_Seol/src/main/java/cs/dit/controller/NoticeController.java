@@ -67,7 +67,7 @@ public class NoticeController {
 		if(count==1)
 			rttr.addFlashAttribute("result", "modified");
 		
-		return "redirect:/board/free";
+		return "redirect:/board/notice";
 	}
 	
 	@PostMapping("/Noticemodify2")
@@ -79,7 +79,7 @@ public class NoticeController {
 		if(count==1)
 			rttr.addFlashAttribute("result", "modified");
 		
-		return "redirect:/board/free";
+		return "redirect:/board/notice";
 	}
 	
 	@GetMapping({"/Noticeget", "/Noticemodify"})

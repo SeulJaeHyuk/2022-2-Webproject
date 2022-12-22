@@ -32,7 +32,7 @@
                                <label>작성자</label>
                                <input class="form-control" name="writer" readonly value="<c:out value='${board.writer}'/>">
                            </div>
-                           <button type="submit" class="btn btn-default"><a href="/board/list">목록</a></button>
+                           <button type="submit" class="btn btn-default"><a href="/board/notice">목록</a></button>
                            <button type="reset" class="btn btn-default"><a href="/board/Noticemodify?bno=<c:out value='${board.bno}'/>">관리</a></button>
                         
                         </div>
